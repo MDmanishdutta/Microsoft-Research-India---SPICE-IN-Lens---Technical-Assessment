@@ -1,0 +1,174 @@
+{
+  "id": "ee2d1c47-f1ec-40df-8602-4d6b689e12f9",
+  "version": "2.0",
+  "name": "test project 12",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "f83ec311-a242-4bc5-9fab-68ecb0d48a01",
+    "name": "test case 12",
+    "commands": [{
+      "id": "982f8a32-5a88-40fb-ab9b-f1160f1a1973",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fec365cb-c3c2-4d84-b559-de85eb945350",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1360x651",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a20bd76d-fbc3-4dc2-8f80-a5cf8d5678b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fe7c06e-1c7f-42b4-b777-354a57fdd99e",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "supreme court"
+    }, {
+      "id": "c37317e6-ef04-483b-a003-a5cf6762b110",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WggQGd > span",
+      "targets": [
+        ["css=.WggQGd > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'supreme court')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e072919-7a61-4709-9aba-6198e063fad3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tF2Cxc > .yuRUbf .notranslate .VuuXrf",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .notranslate .VuuXrf", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/span/a/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aad0711a-2a4b-4944-b9b4-05299e9e1bdd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tF2Cxc > .yuRUbf .notranslate .VuuXrf",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .notranslate .VuuXrf", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/span/a/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea485d28-4011-4fb8-a9ba-d91b9d57ca05",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Home | SUPREME COURT OF INDIA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bce6cf54-9e83-44c3-b1af-6cd7f36b51ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Home | SUPREME COURT OF INDIA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a3c6034-585b-4f9a-bc35-609ad7824062",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Home | SUPREME COURT OF INDIA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e35c7920-0507-48db-9184-a74b7cf1a222",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Latest Updates",
+      "targets": [
+        ["linkText=Latest Updates", "linkText"],
+        ["css=.z-tab:nth-child(2) > .z-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Latest Updates')]", "xpath:link"],
+        ["xpath=//div[@id='tabbed-nav']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Latest Updates')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9797d35-1a1d-43f4-8a98-e9f9ad6573a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.z-active li:nth-child(1) > a",
+      "targets": [
+        ["css=.z-active li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='tabbed-nav']/div/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, './pdf/ListingNotice/02032024_051839.pdf')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4713",
+      "windowTimeout": 2000
+    }, {
+      "id": "27ba8a7e-2409-4be5-8c38-f0afe6792083",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e32723d7-9ae4-4302-b725-7db9c7d3b41b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4713}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "203a007a-6c34-4a83-8168-76f0a5dc2a1a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f83ec311-a242-4bc5-9fab-68ecb0d48a01"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
